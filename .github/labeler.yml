@@ -1,0 +1,42 @@
+# 변경 파일 경로 → area/* 라벨 매핑 (React + Vite 기준)
+area/component:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/components/**'
+
+area/page:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/pages/**'
+      - 'src/routes/**'
+
+area/api:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/api/**'
+      - 'src/services/**'
+      - 'src/hooks/**'
+
+area/style:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/**/*.css'
+      - 'src/**/*.scss'
+      - 'src/styles/**'
+
+area/config:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'package.json'
+      - 'vite.config.*'
+      - 'tsconfig*.json'
+      - 'eslint.config.*'
+      - '.github/**'
+
+area/test:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/**/*.test.*'
+      - 'src/**/*.spec.*'
+      - 'tests/**'
+      - 'e2e/**'
